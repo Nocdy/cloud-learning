@@ -1,0 +1,13 @@
+server:
+  port: 803
+spring:
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.29.14.37
+
+#消费者将要去访问的微服务名称(注册成功进nacos的微服务提供者)(可以省略不不写)
+service-url:
+  nacos-user-service: http://nacos-payment-provider

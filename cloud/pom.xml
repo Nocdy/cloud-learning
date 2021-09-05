@@ -21,13 +21,18 @@
         <module>cloud-consumer-order801</module>
         <module>cloud-consumerzk-order801</module>
         <module>cloud-consumer-feign-order801</module>
+        <module>cloud-alibaba-consumer-order803</module>
         <module>cloud-provider-payment8001</module>
         <module>cloud-provider-payment8002</module>
         <module>cloud-provider-payment8004</module>
+        <module>cloud-alibaba-provider-payment9001</module>
+        <module>cloud-alibaba-provider-payment9003</module>
         <module>cloud-api-commons</module>
+        <module>cloud-alibaba-config-client3377</module>
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server-7002</module>
+        <module>cloud-alibaba-sentinel-service8401</module>
     </modules>
 
     <properties>
